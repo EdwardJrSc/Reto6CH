@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Serenity Demo Web" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-28T17:14:14" hostname="DESKTOP-1SK5DKS" time="48.818">
+  <properties/>
+  <testcase name="As an user i want to sign in to serenity demo page" classname="Serenity Demo Web" time="48.818"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[sept. 28, 2022 12:14:15 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, unexpectedAlertBehavior: ignore, version: }
+Starting ChromeDriver 106.0.5249.21 (71f4e2c9a6f38f5550a8ea29a984a08304554956-refs/branch-heads/5249@{#228}) on port 24003
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sept. 28, 2022 12:14:17 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: As an user i want to sign in to serenity demo page
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>

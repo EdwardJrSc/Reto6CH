@@ -1,0 +1,346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="c7942f7fc3d02503d47308644856c6c3edebf1095bbc9252c2dd063769318672.html">Serenity Demo Web</a></span>
+                > <span class="truncate-60"><a
+                    href="ef104a252772230f7b6ffbc8d3c1f3e11757198ab8917e9ca73ac392f309a89d.html">As an user i want to sign in to serenity demo page </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 28-09-2022 12:14</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Serenity Demo Web </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">As an user i want to sign in to serenity demo page
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="bb34c90013af6e1288b42141894e572b4e4d1e4a38631114cb15f5e622eff626.png" title=" Given Edward opens the website" width="1600"/>
+                <img src="bb34c90013af6e1288b42141894e572b4e4d1e4a38631114cb15f5e622eff626.png" title=" Edward opens the https://serenity.is" width="1600"/>
+                <img src="bb34c90013af6e1288b42141894e572b4e4d1e4a38631114cb15f5e622eff626.png" title=" Edward open login demo" width="1600"/>
+                <img src="bb34c90013af6e1288b42141894e572b4e4d1e4a38631114cb15f5e622eff626.png" title=" Edward clicks on Button demo" width="1600"/>
+                <img src="c46fd19f2a0c19383178b887c6dcbc0570d0af5ee448ab5504b6458226eb89a8.png" title=" Edward clicks on Button demo" width="1600"/>
+                <img src="c46fd19f2a0c19383178b887c6dcbc0570d0af5ee448ab5504b6458226eb89a8.png" title=" Edward clicks on Button demo (completed)" width="1600"/>
+                <img src="c46fd19f2a0c19383178b887c6dcbc0570d0af5ee448ab5504b6458226eb89a8.png" title=" Edward open login demo (completed)" width="1600"/>
+                <img src="c46fd19f2a0c19383178b887c6dcbc0570d0af5ee448ab5504b6458226eb89a8.png" title=" Edward complete login" width="1600"/>
+                <img src="eb1d9fa0b0f516431e22157fb18ecb67c0c21f4a922957822e08e492249d7150.png" title=" Edward clicks on Username Textbox" width="1600"/>
+                <img src="c4f9a71136a139c51245885a88c387624c6d72335a091dcd032abb2ccad9059b.png" title=" Edward clicks on Username Textbox" width="1600"/>
+                <img src="c4f9a71136a139c51245885a88c387624c6d72335a091dcd032abb2ccad9059b.png" title=" Edward clicks on Username Textbox (completed)" width="1600"/>
+                <img src="c4f9a71136a139c51245885a88c387624c6d72335a091dcd032abb2ccad9059b.png" title=" Edward enters 'admin' into Username Textbox" width="1600"/>
+                <img src="d060ec4afd1dbc5f3d7ece5eda2c0ece3c291eff499be2cec240650bdadb8a24.png" title=" Edward enters 'admin' into Username Textbox" width="1600"/>
+                <img src="d060ec4afd1dbc5f3d7ece5eda2c0ece3c291eff499be2cec240650bdadb8a24.png" title=" Edward enters 'admin' into Username Textbox (completed)" width="1600"/>
+                <img src="d060ec4afd1dbc5f3d7ece5eda2c0ece3c291eff499be2cec240650bdadb8a24.png" title=" Edward clicks on Password Textbox" width="1600"/>
+                <img src="9def255d10c9de9c20d3fdc87599ef16eb699d91926775e828f297b2fd8ed3cb.png" title=" Edward clicks on Password Textbox" width="1600"/>
+                <img src="9def255d10c9de9c20d3fdc87599ef16eb699d91926775e828f297b2fd8ed3cb.png" title=" Edward clicks on Password Textbox (completed)" width="1600"/>
+                <img src="9def255d10c9de9c20d3fdc87599ef16eb699d91926775e828f297b2fd8ed3cb.png" title=" Edward enters 'serenity' into Password Textbox" width="1600"/>
+                <img src="563927031c53915894060e5c47c55f7e03f963435b1ae980af02cb1a22bf674e.png" title=" Edward enters 'serenity' into Password Textbox" width="1600"/>
+                <img src="563927031c53915894060e5c47c55f7e03f963435b1ae980af02cb1a22bf674e.png" title=" Edward enters 'serenity' into Password Textbox (completed)" width="1600"/>
+                <img src="563927031c53915894060e5c47c55f7e03f963435b1ae980af02cb1a22bf674e.png" title=" Edward clicks on Submit Button" width="1600"/>
+                <img src="351d92f28514f250e976c14a2a60b082a5031cd628b8bb49b0adfa8f03b016cf.png" title=" Edward clicks on Submit Button" width="1600"/>
+                <img src="351d92f28514f250e976c14a2a60b082a5031cd628b8bb49b0adfa8f03b016cf.png" title=" Edward clicks on Submit Button (completed)" width="1600"/>
+                <img src="351d92f28514f250e976c14a2a60b082a5031cd628b8bb49b0adfa8f03b016cf.png" title=" Edward complete login (completed)" width="1600"/>
+                <img src="351d92f28514f250e976c14a2a60b082a5031cd628b8bb49b0adfa8f03b016cf.png" title=" Given Edward opens the website (completed)" width="1600"/>
+                <img src="d37e454d4bb8def0cbfc75d355ed766261407953cf982dc623058f00bf853a67.png" title=" When Edward attemps to create a new bussiness unit" width="1600"/>
+                <img src="d37e454d4bb8def0cbfc75d355ed766261407953cf982dc623058f00bf853a67.png" title=" Edward search in serenity menu" width="1600"/>
+                <img src="d37e454d4bb8def0cbfc75d355ed766261407953cf982dc623058f00bf853a67.png" title=" Edward clicks on Button Organization" width="1600"/>
+                <img src="a165c858395b59700ebaf337effacee6a2496185be25635d948ecbb494b8ddcf.png" title=" Edward clicks on Button Organization" width="1600"/>
+                <img src="a165c858395b59700ebaf337effacee6a2496185be25635d948ecbb494b8ddcf.png" title=" Edward clicks on Button Organization (completed)" width="1600"/>
+                <img src="a165c858395b59700ebaf337effacee6a2496185be25635d948ecbb494b8ddcf.png" title=" Edward clicks on Button Business Unit" width="1600"/>
+                <img src="1548b27accdf23af03e48bea04c3b6855f6ed3450ba68b7f9e0572c7f752784a.png" title=" Edward clicks on Button Business Unit" width="1600"/>
+                <img src="1548b27accdf23af03e48bea04c3b6855f6ed3450ba68b7f9e0572c7f752784a.png" title=" Edward clicks on Button Business Unit (completed)" width="1600"/>
+                <img src="1548b27accdf23af03e48bea04c3b6855f6ed3450ba68b7f9e0572c7f752784a.png" title=" Edward search in serenity menu (completed)" width="1600"/>
+                <img src="1548b27accdf23af03e48bea04c3b6855f6ed3450ba68b7f9e0572c7f752784a.png" title=" Edward create new business unit" width="1600"/>
+                <img src="a375da7c0fa5d9a19fa52a4f95419f2ee0b1b99379a4621546a21fbc144f8ead.png" title=" Edward clicks on Button create a new business unit" width="1600"/>
+                <img src="e5a64febf43eccfe293fd22ec3bab6703b7202b1c115f7e7b2c14a637aeccc9d.png" title=" Edward clicks on Button create a new business unit" width="1600"/>
+                <img src="e5a64febf43eccfe293fd22ec3bab6703b7202b1c115f7e7b2c14a637aeccc9d.png" title=" Edward clicks on Button create a new business unit (completed)" width="1600"/>
+                <img src="e5a64febf43eccfe293fd22ec3bab6703b7202b1c115f7e7b2c14a637aeccc9d.png" title=" Edward enters 'Edward Testing' into Textbox name to the new unit" width="1600"/>
+                <img src="b7295ecac5973ec7483bdcf5f3940f12c8c098c66bd2284a7927c139fd9e347d.png" title=" Edward enters 'Edward Testing' into Textbox name to the new unit" width="1600"/>
+                <img src="b7295ecac5973ec7483bdcf5f3940f12c8c098c66bd2284a7927c139fd9e347d.png" title=" Edward enters 'Edward Testing' into Textbox name to the new unit (completed)" width="1600"/>
+                <img src="b7295ecac5973ec7483bdcf5f3940f12c8c098c66bd2284a7927c139fd9e347d.png" title=" Edward clicks on Textbox patern to the new unit" width="1600"/>
+                <img src="07a8051a89ebbba5af91b642a3be00f25484f09310b9d8ca2bf3af240c126828.png" title=" Edward clicks on Textbox patern to the new unit" width="1600"/>
+                <img src="07a8051a89ebbba5af91b642a3be00f25484f09310b9d8ca2bf3af240c126828.png" title=" Edward clicks on Textbox patern to the new unit (completed)" width="1600"/>
+                <img src="07a8051a89ebbba5af91b642a3be00f25484f09310b9d8ca2bf3af240c126828.png" title=" Edward clicks on Parent List" width="1600"/>
+                <img src="e34b1e1c3c4d0156c9a2aaa60a14984626512cab3e4b6d003288805aed4ffd7f.png" title=" Edward clicks on Parent List" width="1600"/>
+                <img src="e34b1e1c3c4d0156c9a2aaa60a14984626512cab3e4b6d003288805aed4ffd7f.png" title=" Edward clicks on Parent List (completed)" width="1600"/>
+                <img src="e34b1e1c3c4d0156c9a2aaa60a14984626512cab3e4b6d003288805aed4ffd7f.png" title=" Edward clicks on Button save" width="1600"/>
+                <img src="db82a3b7e0a7dc52baa6177aeb73864a2707a9beb8aef0214835f33839f7ec2c.png" title=" Edward clicks on Button save" width="1600"/>
+                <img src="db82a3b7e0a7dc52baa6177aeb73864a2707a9beb8aef0214835f33839f7ec2c.png" title=" Edward clicks on Button save (completed)" width="1600"/>
+                <img src="db82a3b7e0a7dc52baa6177aeb73864a2707a9beb8aef0214835f33839f7ec2c.png" title=" Edward create new business unit (completed)" width="1600"/>
+                <img src="db82a3b7e0a7dc52baa6177aeb73864a2707a9beb8aef0214835f33839f7ec2c.png" title=" When Edward attemps to create a new bussiness unit (completed)" width="1600"/>
+                <img src="f51d96d3bf6dff82cc6d16622114802c33d2940705ab49c6e06da0cd373d0b4d.png" title=" And after that creates a new meeting on that unit bussiness" width="1600"/>
+                <img src="f51d96d3bf6dff82cc6d16622114802c33d2940705ab49c6e06da0cd373d0b4d.png" title=" Edward search meeting menu" width="1600"/>
+                <img src="f51d96d3bf6dff82cc6d16622114802c33d2940705ab49c6e06da0cd373d0b4d.png" title=" Edward clicks on Create a new meeting" width="1600"/>
+                <img src="0a7390fcbb06c10030cde2f72fa87fe010565db5c2fabf02e6b64ae23bcbe375.png" title=" Edward clicks on Create a new meeting" width="1600"/>
+                <img src="0a7390fcbb06c10030cde2f72fa87fe010565db5c2fabf02e6b64ae23bcbe375.png" title=" Edward clicks on Create a new meeting (completed)" width="1600"/>
+                <img src="0a7390fcbb06c10030cde2f72fa87fe010565db5c2fabf02e6b64ae23bcbe375.png" title=" Edward clicks on Create a new meeting" width="1600"/>
+                <img src="27eb916e471372ada2e4d0ec512f4f0cf19edc82304e63f4f4f5318606c9ad1b.png" title=" Edward clicks on Create a new meeting" width="1600"/>
+                <img src="27eb916e471372ada2e4d0ec512f4f0cf19edc82304e63f4f4f5318606c9ad1b.png" title=" Edward clicks on Create a new meeting (completed)" width="1600"/>
+                <img src="27eb916e471372ada2e4d0ec512f4f0cf19edc82304e63f4f4f5318606c9ad1b.png" title=" Edward clicks on Create a new meeting" width="1600"/>
+                <img src="175ec7852c2aa7b96bd4ceff6b12aa4cd4851e8846682c25b0083038f56108c7.png" title=" Edward clicks on Create a new meeting" width="1600"/>
+                <img src="175ec7852c2aa7b96bd4ceff6b12aa4cd4851e8846682c25b0083038f56108c7.png" title=" Edward clicks on Create a new meeting (completed)" width="1600"/>
+                <img src="175ec7852c2aa7b96bd4ceff6b12aa4cd4851e8846682c25b0083038f56108c7.png" title=" Edward clicks on Name to the new meeting" width="1600"/>
+                <img src="317b712f7491b050d4b7463c242f3ccd09aebb85a45ac0defa817b3abba3de3c.png" title=" Edward clicks on Name to the new meeting" width="1600"/>
+                <img src="317b712f7491b050d4b7463c242f3ccd09aebb85a45ac0defa817b3abba3de3c.png" title=" Edward clicks on Name to the new meeting (completed)" width="1600"/>
+                <img src="317b712f7491b050d4b7463c242f3ccd09aebb85a45ac0defa817b3abba3de3c.png" title=" Edward enters 'Reunion Mensual' into Name to the new meeting" width="1600"/>
+                <img src="a029acbb088f554c0d425d78dfb136158e8945cc1fcbae426b1ffcaa395c307f.png" title=" Edward enters 'Reunion Mensual' into Name to the new meeting" width="1600"/>
+                <img src="a029acbb088f554c0d425d78dfb136158e8945cc1fcbae426b1ffcaa395c307f.png" title=" Edward enters 'Reunion Mensual' into Name to the new meeting (completed)" width="1600"/>
+                <img src="a029acbb088f554c0d425d78dfb136158e8945cc1fcbae426b1ffcaa395c307f.png" title=" Edward clicks on Select the meeting type" width="1600"/>
+                <img src="64b9e52f56ddbae96ece48c8d70325d0c8e338cbbb4ce02adddedaf9bc6650d8.png" title=" Edward clicks on Select the meeting type" width="1600"/>
+                <img src="64b9e52f56ddbae96ece48c8d70325d0c8e338cbbb4ce02adddedaf9bc6650d8.png" title=" Edward clicks on Select the meeting type (completed)" width="1600"/>
+                <img src="64b9e52f56ddbae96ece48c8d70325d0c8e338cbbb4ce02adddedaf9bc6650d8.png" title=" Edward clicks on " width="1600"/>
+                <img src="d5998bef95c545d7e6d91da199a6c0c8b0808f11fdd44714bcba2adde7853263.png" title=" Edward clicks on " width="1600"/>
+                <img src="d5998bef95c545d7e6d91da199a6c0c8b0808f11fdd44714bcba2adde7853263.png" title=" Edward clicks on  (completed)" width="1600"/>
+                <img src="d5998bef95c545d7e6d91da199a6c0c8b0808f11fdd44714bcba2adde7853263.png" title=" Edward clicks on Click date icon" width="1600"/>
+                <img src="0ef2d4894dd393002ee5169a571b50ae12d0762f9f48b4b95061e58f18252cfd.png" title=" Edward clicks on Click date icon" width="1600"/>
+                <img src="0ef2d4894dd393002ee5169a571b50ae12d0762f9f48b4b95061e58f18252cfd.png" title=" Edward clicks on Click date icon (completed)" width="1600"/>
+                <img src="0ef2d4894dd393002ee5169a571b50ae12d0762f9f48b4b95061e58f18252cfd.png" title=" Edward clicks on Select the date to start" width="1600"/>
+                <img src="f72428ad2daa4d86e87229ed41892d2ddb7e4d2b1e4a6b226085fa6ff29970b2.png" title=" Edward clicks on Select the date to start" width="1600"/>
+                <img src="f72428ad2daa4d86e87229ed41892d2ddb7e4d2b1e4a6b226085fa6ff29970b2.png" title=" Edward clicks on Select the date to start (completed)" width="1600"/>
+                <img src="f72428ad2daa4d86e87229ed41892d2ddb7e4d2b1e4a6b226085fa6ff29970b2.png" title=" Edward clicks on Select the hour to start" width="1600"/>
+                <img src="3460e6df388213501ab6d768e3d404d0305c4e7c9a27da691cbadd95f9ffe1eb.png" title=" Edward clicks on Select the hour to start" width="1600"/>
+                <img src="3460e6df388213501ab6d768e3d404d0305c4e7c9a27da691cbadd95f9ffe1eb.png" title=" Edward clicks on Select the hour to start (completed)" width="1600"/>
+                <img src="3460e6df388213501ab6d768e3d404d0305c4e7c9a27da691cbadd95f9ffe1eb.png" title=" Edward clicks on Select the hour to start" width="1600"/>
+                <img src="402ff228e511ba1e05644cab13878cd8b99c857e300dce86cb0542d0d73379d2.png" title=" Edward clicks on Select the hour to start" width="1600"/>
+                <img src="402ff228e511ba1e05644cab13878cd8b99c857e300dce86cb0542d0d73379d2.png" title=" Edward clicks on Select the hour to start (completed)" width="1600"/>
+                <img src="402ff228e511ba1e05644cab13878cd8b99c857e300dce86cb0542d0d73379d2.png" title=" Edward clicks on Select the location arrow" width="1600"/>
+                <img src="4f28331be060ef0492640f0926c486aeff2239f767a09727dd9bad98270825f3.png" title=" Edward clicks on Select the location arrow" width="1600"/>
+                <img src="4f28331be060ef0492640f0926c486aeff2239f767a09727dd9bad98270825f3.png" title=" Edward clicks on Select the location arrow (completed)" width="1600"/>
+                <img src="4f28331be060ef0492640f0926c486aeff2239f767a09727dd9bad98270825f3.png" title=" Edward clicks on Select the location" width="1600"/>
+                <img src="34740381f9503018c22087b0a259ff421e6032301aaec84971ee6bd9e59f3c27.png" title=" Edward clicks on Select the location" width="1600"/>
+                <img src="34740381f9503018c22087b0a259ff421e6032301aaec84971ee6bd9e59f3c27.png" title=" Edward clicks on Select the location (completed)" width="1600"/>
+                <img src="34740381f9503018c22087b0a259ff421e6032301aaec84971ee6bd9e59f3c27.png" title=" Edward clicks on Open host list" width="1600"/>
+                <img src="ae1a7d06cdb49391b7fcfceff8e3f4a5be03426b1891db8f5cb726477d5495da.png" title=" Edward clicks on Open host list" width="1600"/>
+                <img src="ae1a7d06cdb49391b7fcfceff8e3f4a5be03426b1891db8f5cb726477d5495da.png" title=" Edward clicks on Open host list (completed)" width="1600"/>
+                <img src="ae1a7d06cdb49391b7fcfceff8e3f4a5be03426b1891db8f5cb726477d5495da.png" title=" Edward clicks on Select the host" width="1600"/>
+                <img src="544b5ee03a1f11427bcfa34c8096566f712bd815b2a9d9515245046c1ad1fff9.png" title=" Edward clicks on Select the host" width="1600"/>
+                <img src="544b5ee03a1f11427bcfa34c8096566f712bd815b2a9d9515245046c1ad1fff9.png" title=" Edward clicks on Select the host (completed)" width="1600"/>
+                <img src="544b5ee03a1f11427bcfa34c8096566f712bd815b2a9d9515245046c1ad1fff9.png" title=" Edward clicks on Type the meeting number" width="1600"/>
+                <img src="dc9c7025205f1cf2643f7503643a3228480e863c02b5df47dd33eac17fd13a6d.png" title=" Edward clicks on Type the meeting number" width="1600"/>
+                <img src="dc9c7025205f1cf2643f7503643a3228480e863c02b5df47dd33eac17fd13a6d.png" title=" Edward clicks on Type the meeting number (completed)" width="1600"/>
+                <img src="dc9c7025205f1cf2643f7503643a3228480e863c02b5df47dd33eac17fd13a6d.png" title=" Edward enters '1995' into Type the meeting number" width="1600"/>
+                <img src="fc7611e4505a1b9dbd66c61f5df749dfd073f2907a6424f7d5dc87c616be6263.png" title=" Edward enters '1995' into Type the meeting number" width="1600"/>
+                <img src="fc7611e4505a1b9dbd66c61f5df749dfd073f2907a6424f7d5dc87c616be6263.png" title=" Edward enters '1995' into Type the meeting number (completed)" width="1600"/>
+                <img src="fc7611e4505a1b9dbd66c61f5df749dfd073f2907a6424f7d5dc87c616be6263.png" title=" Edward clicks on Click date icon" width="1600"/>
+                <img src="ff64d2b778ab12f4f6956e44db85b91cf035b548140044731e811a09f4b6cd01.png" title=" Edward clicks on Click date icon" width="1600"/>
+                <img src="ff64d2b778ab12f4f6956e44db85b91cf035b548140044731e811a09f4b6cd01.png" title=" Edward clicks on Click date icon (completed)" width="1600"/>
+                <img src="ff64d2b778ab12f4f6956e44db85b91cf035b548140044731e811a09f4b6cd01.png" title=" Edward clicks on Select the date to end" width="1600"/>
+                <img src="fffe7fbffa5ec5ca9cee26f34357060ae4c48a1474fb59187a69efd43acc4fe2.png" title=" Edward clicks on Select the date to end" width="1600"/>
+                <img src="fffe7fbffa5ec5ca9cee26f34357060ae4c48a1474fb59187a69efd43acc4fe2.png" title=" Edward clicks on Select the date to end (completed)" width="1600"/>
+                <img src="fffe7fbffa5ec5ca9cee26f34357060ae4c48a1474fb59187a69efd43acc4fe2.png" title=" Edward clicks on Select the hour to end" width="1600"/>
+                <img src="8efdb426b92dd468a93631422db27c7da776a04249cdca2787e26be0223b8bfd.png" title=" Edward clicks on Select the hour to end" width="1600"/>
+                <img src="8efdb426b92dd468a93631422db27c7da776a04249cdca2787e26be0223b8bfd.png" title=" Edward clicks on Select the hour to end (completed)" width="1600"/>
+                <img src="8efdb426b92dd468a93631422db27c7da776a04249cdca2787e26be0223b8bfd.png" title=" Edward clicks on List unit" width="1600"/>
+                <img src="5654e2af0b181d2b280855acc7cd4875cea033b862fea6ef5d7fd78b1e696e7e.png" title=" Edward clicks on List unit" width="1600"/>
+                <img src="5654e2af0b181d2b280855acc7cd4875cea033b862fea6ef5d7fd78b1e696e7e.png" title=" Edward clicks on List unit (completed)" width="1600"/>
+                <img src="5654e2af0b181d2b280855acc7cd4875cea033b862fea6ef5d7fd78b1e696e7e.png" title=" Edward clicks on Select the unit" width="1600"/>
+                <img src="0f1a51471157b27b0b45a808bb0b1ee3a4477aabb5e9afbcb370cc71b8955ca5.png" title=" Edward clicks on Select the unit" width="1600"/>
+                <img src="0f1a51471157b27b0b45a808bb0b1ee3a4477aabb5e9afbcb370cc71b8955ca5.png" title=" Edward clicks on Select the unit (completed)" width="1600"/>
+                <img src="0f1a51471157b27b0b45a808bb0b1ee3a4477aabb5e9afbcb370cc71b8955ca5.png" title=" Edward clicks on List reporter" width="1600"/>
+                <img src="75e177a34b762d855488facc2ce353b2911ee178118a87716a01cfaa56ecfdee.png" title=" Edward clicks on List reporter" width="1600"/>
+                <img src="75e177a34b762d855488facc2ce353b2911ee178118a87716a01cfaa56ecfdee.png" title=" Edward clicks on List reporter (completed)" width="1600"/>
+                <img src="75e177a34b762d855488facc2ce353b2911ee178118a87716a01cfaa56ecfdee.png" title=" Edward clicks on Select reporter" width="1600"/>
+                <img src="4ccf7efef96b02e6c4437d82beb94227a1f6b62d8434eb8ea3a716f53ca43789.png" title=" Edward clicks on Select reporter" width="1600"/>
+                <img src="4ccf7efef96b02e6c4437d82beb94227a1f6b62d8434eb8ea3a716f53ca43789.png" title=" Edward clicks on Select reporter (completed)" width="1600"/>
+                <img src="4ccf7efef96b02e6c4437d82beb94227a1f6b62d8434eb8ea3a716f53ca43789.png" title=" Edward clicks on List attendee" width="1600"/>
+                <img src="aa1ebc9cdbcf8a643fca3257935dd0695ee05d3020f1393e7fd44bba94b1b93e.png" title=" Edward clicks on List attendee" width="1600"/>
+                <img src="aa1ebc9cdbcf8a643fca3257935dd0695ee05d3020f1393e7fd44bba94b1b93e.png" title=" Edward clicks on List attendee (completed)" width="1600"/>
+                <img src="aa1ebc9cdbcf8a643fca3257935dd0695ee05d3020f1393e7fd44bba94b1b93e.png" title=" Edward clicks on List attendee" width="1600"/>
+                <img src="ef21faf68f6bc73ba454882f1d25759e850cf17a6b9d8227712c3cbca1fcb95a.png" title=" Edward clicks on List attendee" width="1600"/>
+                <img src="ef21faf68f6bc73ba454882f1d25759e850cf17a6b9d8227712c3cbca1fcb95a.png" title=" Edward clicks on List attendee (completed)" width="1600"/>
+                <img src="ef21faf68f6bc73ba454882f1d25759e850cf17a6b9d8227712c3cbca1fcb95a.png" title=" Edward clicks on Button Save" width="1600"/>
+                <img src="a6615833923502b30af7df0ff926dcd41ec3abc237eee8e23092ffd4f87dbf7a.png" title=" Edward clicks on Button Save" width="1600"/>
+                <img src="a6615833923502b30af7df0ff926dcd41ec3abc237eee8e23092ffd4f87dbf7a.png" title=" Edward clicks on Button Save (completed)" width="1600"/>
+                <img src="a6615833923502b30af7df0ff926dcd41ec3abc237eee8e23092ffd4f87dbf7a.png" title=" Edward search meeting menu (completed)" width="1600"/>
+                <img src="a6615833923502b30af7df0ff926dcd41ec3abc237eee8e23092ffd4f87dbf7a.png" title=" And after that creates a new meeting on that unit bussiness (completed)" width="1600"/>
+                <img src="4f20c890650e68b468d32272d237869b5ee75ed69369cc95c350f08f1ef526bb.png" title=" Then will see the created meeting" width="1600"/>
+                <img src="4f20c890650e68b468d32272d237869b5ee75ed69369cc95c350f08f1ef526bb.png" title=" Edward verify created meeting" width="1600"/>
+                <img src="4f20c890650e68b468d32272d237869b5ee75ed69369cc95c350f08f1ef526bb.png" title=" Edward clicks on Create a new meeting" width="1600"/>
+                <img src="27eb916e471372ada2e4d0ec512f4f0cf19edc82304e63f4f4f5318606c9ad1b.png" title=" Edward clicks on Create a new meeting" width="1600"/>
+                <img src="27eb916e471372ada2e4d0ec512f4f0cf19edc82304e63f4f4f5318606c9ad1b.png" title=" Edward clicks on Create a new meeting (completed)" width="1600"/>
+                <img src="27eb916e471372ada2e4d0ec512f4f0cf19edc82304e63f4f4f5318606c9ad1b.png" title=" Edward verify created meeting (completed)" width="1600"/>
+                <img src="27eb916e471372ada2e4d0ec512f4f0cf19edc82304e63f4f4f5318606c9ad1b.png" title=" Then will see the created meeting (completed): <span class='success-color'>SUCCESS</span>" width="1600"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>
